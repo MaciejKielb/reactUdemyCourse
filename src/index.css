@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.app-title {
+  margin-top: 80px;
+  margin-bottom: 60px;
+  font-size: 100px;
+  color: #0cca; 
+  font-family: 'Bigelow Rules';
+}
