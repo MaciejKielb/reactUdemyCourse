@@ -1,12 +1,13 @@
-import { Component } from 'react';
-
 import './card.styles.css';
 
 const Card = ({ monster }) => {
   const { name, email, id } = monster;
 
   return (
-    <div className='card-container' key={id}>
+    <div
+      className='card-container'
+      key={id}
+    >
       <img
         alt={`monster ${name}`}
         src={`https://robohash.org/${id}s?set=set2&size=180x180`}
